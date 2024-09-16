@@ -1,0 +1,253 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ff7f50;
+}
+
+header .logo img {
+    width: 100px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-right select,
+.header-right input {
+    margin-right: 10px;
+}
+
+.header-right .cta-btn {
+    background-color: #28a745;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    height: 100vh;
+    background: url('shinobi\ prabhas.jpg') center center / cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(245, 140, 140);
+}
+
+.hero-content {
+    max-width: 800px;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.hero-content .primary-cta {
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Explore Heritage Section */
+.explore-heritage {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.explore-heritage h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.heritage-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.heritage-item {
+    width: 300px;
+    position: relative;
+}
+
+.heritage-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.heritage-item .cta-btn {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Cultural Festivals Section */
+.cultural-festivals {
+    padding: 50px;
+    background-color: #f0e68c;
+}
+
+.carousel {
+    display: flex;
+    justify-content: space-between;
+}
+
+.carousel-item {
+    width: 250px;
+    position: relative;
+}
+
+.carousel-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.carousel-item .cta-btn {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Craft Learning Hub Section */
+.learning-hub {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.learning-hub .craft-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.craft-item {
+    width: 250px;
+}
+
+.craft-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Immersive Experience Section */
+.immersive-experience {
+    text-align: center;
+    padding: 50px;
+    background-color: #dcdcdc;
+}
+
+.immersive-experience video {
+    width: 80%;
+    border-radius: 10px;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background-color: #ffebcd;
+    padding: 50px;
+    text-align: center;
+}
+
+.testimonial-slider {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.testimonial-slider blockquote {
+    font-size: 1.2em;
+    color: #333;
+    font-style: italic;
+}
+
+/* Newsletter Signup Section */
+.newsletter {
+    padding: 50px;
+    text-align: center;
+    background-color: #f0e68c;
+}
+
+.newsletter input {
+    padding: 10px;
+    width: 300px;
+    margin-right: 10px;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #2f4f4f;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.footer-links a {
+    margin-right: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.social-icons img {
+    width: 30px;
+    margin-right: 10px;
+}
